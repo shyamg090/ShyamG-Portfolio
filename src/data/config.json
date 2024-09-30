@@ -1,34 +1,49 @@
 {
-  "job": "Frontend Developer",
-  "name": "John Doe",
-  "desc": "The traveler of this path, a web designer in Turkey.",
-  "aboutDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  "email": "john.doe@example.com",
+  "job": "MERN Stack Developer",
+  "name": "Shyam G",
+  "desc": "A Computer Science Grad, Intrested in learning and building.",
+  "aboutDesc": "I have 9 months of experience as a Software Engineer/ Web Developer, I work mainly on Javascript and comfortable in building both frontend and backend. currently learning Typescript / PostgreSQL",
+  "email": "shyamg1002@gmail.com",
   "status": "on",
-  "hireMeLink": "https://twitter.com/iamkaanayyildiz",
+  "hireMeLink": "https://www.linkedin.com/in/shyam-g-6712a522b/",
   "projects": [
     {
-      "project-image-url": "https://github.com/kaanayyildiz/benfolio/assets/39806458/9d826c30-0135-4620-8e0f-bc3460848e5e",
-      "project-name": "Benfolio",
+      "project-image-url": "https://media.licdn.com/dms/image/v2/D5603AQFuJmhzsGdpDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709805239016?e=1733356800&v=beta&t=zBtL206l6XKG1IF7tyHd9kPZItae9SljKgywBFjhASU",
+      "project-name": "Shyamg",
+      "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://media.licdn.com/dms/image/v2/D5603AQFuJmhzsGdpDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709805239016?e=1733356800&v=beta&t=zBtL206l6XKG1IF7tyHd9kPZItae9SljKgywBFjhASU",
+      "project-name": "Shyamg",
+      "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://media.licdn.com/dms/image/v2/D5603AQFuJmhzsGdpDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709805239016?e=1733356800&v=beta&t=zBtL206l6XKG1IF7tyHd9kPZItae9SljKgywBFjhASU",
+      "project-name": "Shyamg",
+      "project-desc": "React + Tailwind Portfolio"
+    },
+    {
+      "project-image-url": "https://media.licdn.com/dms/image/v2/D5603AQFuJmhzsGdpDg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1709805239016?e=1733356800&v=beta&t=zBtL206l6XKG1IF7tyHd9kPZItae9SljKgywBFjhASU",
+      "project-name": "Shyamg",
       "project-desc": "React + Tailwind Portfolio"
     }
   ],
   "social": [
     {
       "icon": "FaXTwitter",
-      "link": "https://x.com"
+      "link": "https://x.com/shyam_dev0"
     },
     {
       "icon": "FaInstagram",
-      "link": "https://instagram.com"
+      "link": "https://www.instagram.com/shyamg.bhat/"
     },
     {
       "icon": "FaGithub",
-      "link": "https://github.com"
+      "link": "https://github.com/shyamg090"
     },
     {
       "icon": "FaLinkedinIn",
-      "link": "https://linkedin.com"
+      "link": "https://www.linkedin.com/in/shyam-g-6712a522b/"
     }
   ]
 }

@@ -1,5 +1,6 @@
 import profile from "../assets/profile.png";
 import CopyEmailButton from "../components/CopyEmailButton";
+import Skills from "../components/Skills";
 import { getConfigData } from "../data/configReader";
 
 export default function About() {
@@ -12,7 +13,7 @@ export default function About() {
           About
         </h1>
       </div>
-      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
+      <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-4">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             It's me {configData.name}
@@ -20,7 +21,13 @@ export default function About() {
           <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.png" alt="" />
+          
+          <div className="flex flex-col text-center gap-4">
+            <h1 className="text-3xl font-semibold">My Skills</h1>
+            <Skills />
+          </div>
+
+
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
@@ -29,7 +36,7 @@ export default function About() {
           Creating user experience and visual appealing design
         </p>
       </div>
-      <div className="flex flex-col flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
+      <div className="flex flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
         <div className="flex flex-col gap-y-2">
 
           <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">

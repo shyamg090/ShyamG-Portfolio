@@ -23,7 +23,7 @@ export default function Profile() {
           </div>
         </div>
       </div>
-      <div className="px-7 py-7 flex flex-col flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
+      <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-2">
           <h1 className="text-4xl md:text-4xl font-semibold text-center md:text-justify tracking-tighter">
             I'm {configData.name}

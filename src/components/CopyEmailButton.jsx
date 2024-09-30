@@ -9,7 +9,7 @@ function CopyEmailButton() {
   const configData = getConfigData();
 
   const copyToClipboard = () => {
-    const email = configData.email; // Kopyalanacak e-posta adresi
+    const email = configData.email; 
     navigator.clipboard.writeText(email)
       .then(() => {
         setButtonText('Copied');

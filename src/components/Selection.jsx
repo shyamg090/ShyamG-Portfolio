@@ -1,32 +1,14 @@
-import { useState } from "react";
-import { getConfigData } from "../data/configReader";
+import React from 'react'
 
-export default function Card() {
-  const configData = getConfigData();
-  const projects = configData.projects;
-
-  const [isHovered, setIsHovered] = useState(false);
-
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
-
-  const svgClass = isHovered
-    ? "w-6 h-6 text-gray-500 transition delay-150"
-    : "w-6 h-6 text-gray-300";
-
+const Selection = () => {
   return (
-    <>
-      <div className="px-2">
+    <div>
+
+<div className="px-2">
         <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
           <div className="flex items-center justify-between mb-5">
             <div className="font-medium text-lg flex items-center gap-x-2">
-              <div className="w-1.5 h-1.5 bg-gray-400 rounded-full"></div>
-              Projects
+            Skills
             </div>
             <button
               type="button"
@@ -49,7 +31,7 @@ export default function Card() {
               </svg>
             </button>
           </div>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             {projects.map((project, index) => (
               <a
                 key={index}
@@ -96,6 +78,8 @@ export default function Card() {
           </div>
         </div>
       </div>
-    </>
-  );
+    </div>
+  )
 }
+
+export default Selection
