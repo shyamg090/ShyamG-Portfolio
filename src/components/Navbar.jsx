@@ -21,9 +21,9 @@ export default function Navbar() {
   return (
     <>
       <header className="py-2 px-2 fixed top-0 left-0 w-full z-40">
-        <div className="mx-auto max-w-xl ">
+        <div className="mx-auto max-w-3xl ">
           <navbar className="backdrop-filter backdrop-blur-lg bg-white bg-opacity-40 rounded-xl flex items-center justify-between shadow-md">
-            <div className="flex gap-x-3 px-5 py-2">
+            <div className="flex gap-x-3 px-5 py-2 relative">
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -31,7 +31,7 @@ export default function Navbar() {
                     ? "bg-white rounded-full p-2 transition-all duration-300"
                     : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
                 }
-              >
+              >                               
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -47,6 +47,8 @@ export default function Navbar() {
                   />
                 </svg>
               </NavLink>
+              {/* <span className="absolute top-5 z-10">home</span> */}
+
 
               <NavLink
                 to="/about"

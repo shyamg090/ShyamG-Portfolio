@@ -3,12 +3,11 @@ import React from 'react'
 const Selection = () => {
   return (
     <div>
-
-<div className="px-2">
+      <div className="px-2">
         <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
           <div className="flex items-center justify-between mb-5">
             <div className="font-medium text-lg flex items-center gap-x-2">
-            Skills
+              Skills
             </div>
             <button
               type="button"
