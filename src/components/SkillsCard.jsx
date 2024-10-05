@@ -2,7 +2,7 @@ import React from 'react'
 
 import skill from '../data/skill'
 
-const Skills = ({start, end}) => {
+const SkillsCard = ({start, end}) => {
   return (
     <div className='grid grid-cols-3 grid-rows-none place-items-center p-4 gap-5'>
         {
@@ -14,4 +14,4 @@ const Skills = ({start, end}) => {
   )
 }
 
-export default Skills;
+export default SkillsCard;

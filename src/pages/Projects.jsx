@@ -33,8 +33,8 @@ export default function Projects() {
                 }
               </div>
               <div className="w-full flex items-center justify-evenly gap-4 m-4">
-                  <a href={item.link} target="_blank"> <FaLink className="text-[2vw] lg:text-[1.8vw]" /> </a>
-                  <a href={item.github} target="_blank"> <FaGithub className="text-[2vw] lg:text-[1.8vw]" /> </a>
+                  <a href={item.link} target="_blank"> <FaLink className="text-[6vw] lg:text-[1.8vw]" /> </a>
+                  <a href={item.github} target="_blank"> <FaGithub className="text-[6vw] lg:text-[1.8vw]" /> </a>
                 </div>
             </div>
           })

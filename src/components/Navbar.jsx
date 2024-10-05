@@ -7,7 +7,7 @@ import { changetheme } from "../redux/themeSlice";
 import { TiHome } from "react-icons/ti";
 import { MdArticle,MdOutlineWork } from "react-icons/md";
 
-import { FaJs } from "react-icons/fa";
+import { FaJs, FaYoutube } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 
 
@@ -44,14 +44,14 @@ export default function Navbar() {
 
 
               <NavLink
-                to="/about"
+                to="/skills"
                 className={({ isActive }) =>
                   isActive
                     ? "bg-white rounded-full p-2 transition-all duration-300"
                     : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
                 }
               >
-                <FaJs className="text-[7vw] lg:text-[2vw] " />
+                <FaJs className="text-[6vw] lg:text-[2vw] " />
 
               </NavLink>
 
@@ -63,7 +63,7 @@ export default function Navbar() {
                     : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
                 }
               >
-                <GrProjects className="text-[7vw] lg:text-[2vw] " />
+                <GrProjects className="text-[6vw] lg:text-[1.8vw] " />
 
               </NavLink>
 
@@ -78,6 +78,7 @@ export default function Navbar() {
                 <MdOutlineWork className="text-[7vw] lg:text-[2vw] " />
 
               </NavLink>
+
               <NavLink
                 to="/articles"
                 className={({ isActive }) =>
@@ -87,6 +88,17 @@ export default function Navbar() {
                 }
               >
                 <MdArticle className="text-[7vw] lg:text-[2vw] " />
+              </NavLink>
+
+              <NavLink
+                to="/youtube"
+                className={({ isActive }) =>
+                  isActive
+                    ? "bg-white rounded-full p-2 transition-all duration-300"
+                    : "opacity-50 p-2 hover:bg-white rounded-full transition-all duration-300 hover:opacity-100"
+                }
+              >
+                <FaYoutube className="text-[7vw] lg:text-[2vw] " />
               </NavLink>
             </div>
 

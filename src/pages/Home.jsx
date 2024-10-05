@@ -1,6 +1,6 @@
 import Profile from "../components/Profile";
 import Projects from "../components/Projects";
-import Skills from "../components/Skills";
+import Skills from "../components/SkillsCard";
 import WorkExperience from "./WorkExperience";
 
 export default function Home() {
