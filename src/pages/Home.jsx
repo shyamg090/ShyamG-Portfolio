@@ -15,6 +15,8 @@ export default function Home() {
 
         <Projects name={'Projects'} path={'/projects'} />
         <Projects name={'Skills'} path={'/about'} />
+        <Projects name={'Articles'} path={'/articles'} />
+
       </div>
 
 

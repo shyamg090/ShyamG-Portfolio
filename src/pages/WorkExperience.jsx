@@ -29,7 +29,7 @@ export default function WorkExperience() {
                 <div className="px-7 py-7 w-full">
                     <h1 className="flex items-center text-lg font-medium">
                         <Link to={'/'}>
-                            <FaArrowLeft className="text-[3vw] lg:text-[1.5vw] mr-8" />
+                            <FaArrowLeft className="text-[5vw] mr-4 lg:text-[1.5vw] lg:mr-8" />
                         </Link>                        
                         Work Experience
                     </h1>

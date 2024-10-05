@@ -1,4 +1,4 @@
-import saveit from './assets/moodmovie.png'
+import saveit from './assets/saveit.png'
 import evento from './assets/moodmovie.png'
 import peoplepost from './assets/moodmovie.png'
 import techtune from './assets/techtune.png'
@@ -61,5 +61,30 @@ const myProject = [
       github: "https://github.com/shyamg090/Pokedex-React-project"
     },
   ]
+
+export const MyArticles = [
+  {
+    id: 1,
+    name: 'React Simplified: Interesting Concepts Commonly Overlooked but Crucial.',
+    url: 'https://media.licdn.com/dms/image/v2/D5612AQGjAiKuljsc9w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725650229789?e=1733356800&v=beta&t=WYqnSR8QVCQR5TGy2a9fVKKviO4DLnqH4Krt99A6LAA',
+    // desc: "Pokedex: React-based app showcases 1218 Pokémon with detailed info",
+    link: "https://www.linkedin.com/pulse/react-simplified-interesting-concepts-commonly-overlooked-shyam-g-hmilc/?trackingId=hDPVVNxYT4yHk1hkIP2JtA%3D%3D",
+    // github: "https://github.com/shyamg090/Pokedex-React-project"
+  },    {
+    id: 2,
+    name: 'Streamlining Data Validation in Node.js with Zod: A Practical Guide',
+    url: 'https://media.licdn.com/dms/image/v2/D5612AQHkS29qEDl-mw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1727418866199?e=1733356800&v=beta&t=rrZS6SbitmvCx4HDhsBohNK_GOD_5nDSKO4YE01pRac',
+    // desc: "Pokedex: React-based app showcases 1218 Pokémon with detailed info",
+    link: "https://www.linkedin.com/pulse/streamlining-data-validation-nodejs-zod-practical-guide-shyam-g-ayipc/?trackingId=hDPVVNxYT4yHk1hkIP2JtA%3D%3D",
+    // github: "https://github.com/shyamg090/Pokedex-React-project"
+  },    {
+    id: 3,
+    name: 'How to Build a Chrome Extension Using React and Tailwind CSS: A Beginner\'s Guide',
+    url: 'https://media.licdn.com/dms/image/v2/D5612AQGsnCmnNY91Rw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1726120235690?e=1733356800&v=beta&t=J5EPL4bq-Z_uR7N6esYv3NuBndJEacXSdjNNxKUA-wo',
+    // desc: "Pokedex: React-based app showcases 1218 Pokémon with detailed info",
+    link: "https://www.linkedin.com/pulse/how-build-chrome-extension-using-react-tailwind-css-beginners-shyam-g-l4uic/?trackingId=hDPVVNxYT4yHk1hkIP2JtA%3D%3D",
+    // github: "https://github.com/shyamg090/Pokedex-React-project"
+  },
+]
 
   export default myProject;

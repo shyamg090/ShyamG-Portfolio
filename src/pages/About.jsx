@@ -6,10 +6,10 @@ export default function About() {
   return (
     <>
       <div className="flex flex-col text-center gap-8 bg-gray-100 p-4 mx-2 my-4 rounded-md">
-        <div className="px-7 py-7">
-          <h1 className="flex items-center text-lg font-medium">
+        <div className="w-full py-7">
+          <h1 className="w-full flex items-center text-lg font-medium">
             <Link to={'/'}>
-              <FaArrowLeft className="text-[3vw] lg:text-[1.5vw] mr-8" />
+              <FaArrowLeft className="text-[5vw] mr-4 lg:text-[1.5vw] lg:mr-8" />
             </Link>
             Skills
           </h1>
@@ -24,7 +24,7 @@ export default function About() {
         <h1 className="text-2xl font-semibold">Tools</h1>
         <Skills start={13} end={100} />
       </div>
-
+      
     </>
   );
 }
