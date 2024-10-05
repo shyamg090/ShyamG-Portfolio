@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { getConfigData } from "../data/configReader";
 import { Link } from "react-router-dom";
+import {FaArrowLeft} from 'react-icons/fa'
 
 export default function Card({ name, path }) {
 
@@ -23,6 +24,7 @@ export default function Card({ name, path }) {
 
   return (
     <>
+    
       <div className="px-2">
         <div className="flex flex-col bg-gray-100 rounded-lg px-5 py-5 ">
           <div className="flex items-center justify-between">

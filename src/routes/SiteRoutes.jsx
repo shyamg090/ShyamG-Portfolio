@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Products from "../pages/Products";
 import PageNotFound from "../pages/PageNotFound";
+import WorkExperience from "../pages/WorkExperience";
 
 export default function SiteRoutes() {
   return (
@@ -11,7 +12,7 @@ export default function SiteRoutes() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/projects" element={<Projects />} />
-      <Route path="/products" element={<Products />} />
+      <Route path="/work" element={<WorkExperience />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

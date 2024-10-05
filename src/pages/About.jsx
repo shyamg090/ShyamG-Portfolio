@@ -1,20 +1,19 @@
-import profile from "../assets/profile.png";
-import CopyEmailButton from "../components/CopyEmailButton";
+import { Link } from "react-router-dom";
 import Skills from "../components/Skills";
-import { getConfigData } from "../data/configReader";
+import { FaArrowLeft } from "react-icons/fa";
 
 export default function About() {
-  const configData = getConfigData();
   return (
     <>
-      <div className="px-7 py-7">
-        <h1 className="flex items-center text-lg font-medium">
-          <div className="w-2 h-2 bg-gray-400 rounded-full mr-2"></div>
-          Skills
-        </h1>
-      </div>
-
-      <div className="flex flex-col text-center gap-8 bg-gray-100 p-4 mx-2 rounded-md">
+      <div className="flex flex-col text-center gap-8 bg-gray-100 p-4 mx-2 my-4 rounded-md">
+        <div className="px-7 py-7">
+          <h1 className="flex items-center text-lg font-medium">
+            <Link to={'/'}>
+              <FaArrowLeft className="text-[3vw] lg:text-[1.5vw] mr-8" />
+            </Link>
+            Skills
+          </h1>
+        </div>
         {/* <h1 className="text-3xl font-semibold">My Skills</h1> */}
         <h1 className="text-2xl font-semibold">Languages</h1>
         <Skills start={1} end={4} />

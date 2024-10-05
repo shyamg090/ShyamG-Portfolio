@@ -1,13 +1,18 @@
 import Profile from "../components/Profile";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+import WorkExperience from "./WorkExperience";
 
 export default function Home() {
   return (
     <>
       <Profile />
 
+      {/* <WorkExperience/> */}
+
       <div className="flex flex-col gap-4">
+      <Projects name={'Work Experience'} path={'/work'} />
+
         <Projects name={'Projects'} path={'/projects'} />
         <Projects name={'Skills'} path={'/about'} />
       </div>

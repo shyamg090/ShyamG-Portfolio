@@ -99,7 +99,7 @@ export default function Navbar() {
               </NavLink>
 
               <NavLink
-                to="/products"
+                to="/work"
                 className={({ isActive }) =>
                   isActive
                     ? "bg-white rounded-full p-2 transition-all duration-300"
