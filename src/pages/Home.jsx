@@ -14,7 +14,7 @@ export default function Home() {
       <Projects name={'Work Experience'} path={'/work'} />
 
         <Projects name={'Projects'} path={'/projects'} />
-        <Projects name={'Skills'} path={'/about'} />
+        <Projects name={'Skills'} path={'/skills'} />
         <Projects name={'Articles'} path={'/articles'} />
 
       </div>
